@@ -27,7 +27,6 @@ function App() {
         </a>
         <a href="https://www.instagram.com">
           <FontAwesomeIcon icon = {faInstagram} />
-          <FontAwesomeIcon icon = {faInstagram} />
         </a>
       </div>
     </React.Fragment>
