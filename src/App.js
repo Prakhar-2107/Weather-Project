@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faFacebook, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import CurrentLocation from "./currentLocation";
 import "./App.css";
 
@@ -15,17 +15,17 @@ function App() {
           Copyright &copy; 2023
         </a>{" "}
         | Developed by{" "}
-        <a target="_blank" href="https://www.gauravghai.dev/">
+        <a target="_blank" >
           Prakhar Srivastava
         </a>{" "}
         |
-        <a href="https://www.facebook.com">
-          <FontAwesomeIcon icon = {faFacebook} />
+        <a href="https://www.linkedin.com/in/prakhar-srivastava-a354031bb">
+          <FontAwesomeIcon icon = {faLinkedin} />
         </a>
-        <a href="https://www.github.com">
+        <a href="https://github.com/Prakhar-2107">
           <FontAwesomeIcon icon = {faGithub} />
         </a>
-        <a href="https://www.instagram.com">
+        <a href="https://www.instagram.com/prakhar_0721/">
           <FontAwesomeIcon icon = {faInstagram} />
         </a>
       </div>
